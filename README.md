@@ -17,7 +17,7 @@ To move the player, use the arrow keys.
 
 ## Game Link
 
-[You can play this game via this link]()
+[You can play this game via this link](https://faustineomuya.github.io/classic_arcade_game_clone/)
 
 ## Arcade Game Features
 
