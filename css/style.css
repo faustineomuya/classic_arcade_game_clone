@@ -1,0 +1,100 @@
+body {
+    font-family: 'Coda', cursive;
+    text-align: center;
+    font-size: 20px;
+    color: #000000;
+    background: #ffffff url('../images/The-Waves-of-Ocean-Backgrounds.jpg'); 
+    border-style: solid ;
+}
+
+#interface {
+    display: flex;
+    width: 503px;
+    min-height: 40px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+#interface div {
+    margin: 2px;
+    border-radius: 30px;
+    border: 5px solid #4286df;
+    padding: 5px;
+}
+
+#loss, #winnerText{
+    width: 20%;
+}
+
+#guide {
+    width: 60%;
+}
+
+.winnerProtocol {
+    animation: winner 1s ease-out;
+}
+
+.lossProtocol {
+    animation: loser 1s ease-out;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+#nme {
+	font-weight: 700;
+	font-size: 16px;
+}
+
+
+@keyframes winner {
+    0% {
+        background-color: rgba(34, 248, 34, 0.7);
+        font-size: 1em;
+    }
+    20% {
+        background-color: rgba(214, 244, 20, 0.2);
+    }
+    40% {
+        background-color: rgba(34, 248, 34, 0.7);
+    }
+    60% {
+        background-color: rgba(214, 244, 20, 0.2);
+        font-size: 1.1em;
+    }
+    80% {
+        background-color: rgba(34, 248, 34, 0.7);
+    }
+    100% {
+        background-color: rgba(214, 244, 20, 0.2);
+        font-size: 1em;
+    }
+}
+
+@keyframes loser {
+    0% {
+        background-color: rgba(255, 0, 0, 0.8);
+        /* font-size: 1em; */
+    }
+    50% {
+        background-color: rgba(244, 199, 20, 0.446);
+        font-size: 1.1em;
+    }
+    100% {
+        background-color: rgba(255, 0, 0, 0.8);
+        /* font-size: 1em; */
+    }
+}
+
+footer {
+    font-size: 0.8em;
+    margin-top: 5px;
+}
+
+footer a {
+    text-decoration: underline;
+    color: red;
+}
